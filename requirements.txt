@@ -1,0 +1,37 @@
+# Core scientific stack
+numpy
+pandas
+scipy
+xarray
+matplotlib
+
+# ERA5 / cloud data access
+zarr==2.18.3
+numcodecs==0.12.1
+gcsfs
+netCDF4
+h5netcdf
+dask
+
+# Mapping (data_fetcher quick-look plot)
+cartopy
+
+# Solar / clear-sky modelling
+pvlib
+
+# Time series & statistics
+statsmodels
+hurst
+nolds
+
+# Wavelet analysis
+pycwt
+
+# Machine learning
+scikit-learn
+xgboost
+
+# Notebook UX
+tqdm
+ipywidgets
+jupyter

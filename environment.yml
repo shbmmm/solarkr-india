@@ -1,0 +1,29 @@
+name: solarkt-india
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - scipy
+  - xarray
+  - matplotlib
+  - zarr=2.18.3
+  - numcodecs=0.12.1
+  - gcsfs
+  - netCDF4
+  - h5netcdf
+  - dask
+  - cartopy
+  - statsmodels
+  - scikit-learn
+  - xgboost
+  - tqdm
+  - ipywidgets
+  - jupyter
+  - pip
+  - pip:
+      - pvlib
+      - hurst
+      - nolds
+      - pycwt
