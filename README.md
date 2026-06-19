@@ -88,6 +88,9 @@ SARIMAX with exogenous climate-mode predictors beats both the climatology baseli
 <p align="center">
   <img src="sarimax_xgb_climatology_forecast.png" width="700" alt="SARIMAX vs XGBoost vs climatology forecast, 2016-2025">
 </p>
+<p align="center">
+<img src="wavelet_power_spectrum_kt_anomaly.png" width="320" alt="Morlet wavelet power spectrum of Kt anomaly">
+</p>
 
 ## Repository structure
 
