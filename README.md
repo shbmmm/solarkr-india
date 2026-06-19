@@ -9,7 +9,7 @@
 A 45-year, ERA5-reanalysis-driven assessment of surface solar irradiance and solar PV resource potential across four climatically distinct Indian cities — combining clearness-index climatology, long-memory/stationarity diagnostics, Morlet wavelet spectral analysis, and SARIMAX + XGBoost forecasting with large-scale climate-mode predictors (ENSO, IOD).
 
 <p align="center">
-  <img src="results/figures/ssrd_snapshot_map.png" width="600" alt="Surface Solar Radiation Downwards snapshot over South Asia">
+  <img src="ssrd_snapshot_map.png" width="600" alt="Surface Solar Radiation Downwards snapshot over South Asia">
 </p>
 
 ---
@@ -83,11 +83,11 @@ SARIMAX with exogenous climate-mode predictors beats both the climatology baseli
 ## Sample output
 
 <p align="center">
-  <img src="results/figures/kt_seasonal_climatology.png" width="480" alt="Kt seasonal climatology, all four cities">
-  <img src="results/figures/wavelet_power_spectrum_kt_anomaly.png" width="320" alt="Morlet wavelet power spectrum of Kt anomaly">
+  <img src="kt_seasonal_climatology.png" width="480" alt="Kt seasonal climatology, all four cities">
+  <img src="wavelet_power_spectrum_kt_anomaly.png" width="320" alt="Morlet wavelet power spectrum of Kt anomaly">
 </p>
 <p align="center">
-  <img src="results/figures/sarimax_xgb_climatology_forecast.png" width="700" alt="SARIMAX vs XGBoost vs climatology forecast, 2016-2025">
+  <img src="sarimax_xgb_climatology_forecast.png" width="700" alt="SARIMAX vs XGBoost vs climatology forecast, 2016-2025">
 </p>
 
 ## Repository structure
@@ -99,14 +99,11 @@ solarkt-india/
 ├── requirements.txt
 ├── environment.yml
 ├── .gitignore
-├── notebooks/
-│   ├── 01_data_fetcher.ipynb
-│   ├── 02_climatology_wavelet_analysis.ipynb
-│   └── 03_sarimax_xgboost_forecasting.ipynb
-├── data/
-│   └── README.md          # expected file layout (data itself is git-ignored)
-└── results/
-    └── figures/            # exported plots (sample figures included)
+├── 01_data_fetcher.ipynb
+│── 02_climatology_wavelet_analysis.ipynb
+│── 03_sarimax_xgboost_forecasting.ipynb
+├── README.md          # expected file layout (data itself is git-ignored)
+           # exported plots (sample figures included)
 ```
 
 ## Setup
